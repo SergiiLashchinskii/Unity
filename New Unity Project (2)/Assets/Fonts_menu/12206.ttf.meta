@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 917b9aa29aa338f49b5727982fbace45
+timeCreated: 1539162797
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Swiss Siena [RUS by Daymarius]
+  fontNames:
+  - Swiss Siena [RUS by Daymarius]
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
