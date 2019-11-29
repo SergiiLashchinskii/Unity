@@ -393,6 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 237995457}
   - component: {fileID: 237995458}
+  - component: {fileID: 237995459}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -406,20 +407,20 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 237995456}
-  m_LocalRotation: {x: -0, y: 0.050592646, z: -0, w: -0.9987194}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
-  m_LocalScale: {x: 0.027839128, y: 0.040308643, z: 0.41384318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.8544428}
+  m_LocalScale: {x: 4.9915504, y: 6.5300007, z: 1.7452977}
   m_Children:
   - {fileID: 1358846469}
   - {fileID: 218152868}
   - {fileID: 581762233}
   - {fileID: 931129302}
-  m_Father: {fileID: 1653850371}
-  m_RootOrder: 1
+  m_Father: {fileID: 563933281}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.22, y: 2.06}
+  m_AnchoredPosition: {x: 616, y: 255}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237995458
@@ -470,6 +471,26 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!50 &237995459
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237995456}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &433891685
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +616,7 @@ RectTransform:
   - {fileID: 1947078694}
   - {fileID: 653505250}
   - {fileID: 1653850371}
+  - {fileID: 237995457}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -626,7 +648,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581762232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -145.9, y: 2, z: -39}
+  m_LocalPosition: {x: -94.4, y: 4.3, z: -39}
   m_LocalScale: {x: 62.6957, y: 39.78, z: 60.65098}
   m_Children: []
   m_Father: {fileID: 237995457}
@@ -1094,7 +1116,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 931129301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 139.65, y: 1.7, z: 41.5}
+  m_LocalPosition: {x: 83.2, y: 2.4, z: 41.5}
   m_LocalScale: {x: 58.141354, y: 39.616055, z: 60.65098}
   m_Children: []
   m_Father: {fileID: 237995457}
