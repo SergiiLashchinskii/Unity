@@ -286,3 +286,5 @@ e2db7bac682f6949c8bd2559710727bf Assembly-CSharp.dll:.MovingPlatform
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 78d9235c22fed7ab87038473d59fc526 Assembly-CSharp.dll:.Wizard_bullet
+372635be42b92e35d56a22d1f90831b0 Assembly-CSharp.dll:.money_player
+b7178ec0f9383ff19f1f00ecf6404ba2 Assembly-CSharp.dll:.money
