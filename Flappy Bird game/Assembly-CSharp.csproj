@@ -66,7 +66,7 @@
      <Compile Include="Assets\Scripts\ScrollingObject.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Y700/Desktop/Flappy Bird game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Y700/Documents/GitHub/Unity/Flappy Bird game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
