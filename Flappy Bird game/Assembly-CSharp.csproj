@@ -57,7 +57,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Bird.cs" />
-     <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\Column.cs" />
      <Compile Include="Assets\Scripts\ColumnPool.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />

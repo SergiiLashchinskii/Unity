@@ -9,7 +9,6 @@ public class Bird : MonoBehaviour
 	private Animator _anim;
 	
 	public float upForce = 200f;
-	public CameraShake cameraShake;
 	
 	void Start ()
 	{
@@ -37,8 +36,6 @@ public class Bird : MonoBehaviour
 		_anim.SetTrigger("Die");
 
 		GameControl.instance.BirdDied();
-
-		StartCoroutine(cameraShake.Shake(.15f, .14f)); 
 
 		if(col.collider.tag == "Ground")
 		{

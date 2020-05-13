@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - Bird
-    - CameraShake
     - Column
     - ColumnPool
     - GameControl
@@ -79,9 +78,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9622}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9634}
     - Class: 114
-      Script: {instanceID: 9636}
+      Script: {instanceID: 10156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -530,7 +529,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 53cd62a6a75c4426247a1d8a27dfacdb
+      Hash: 2029d0eb18e84b4e4402c99215507549
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bird
@@ -594,12 +593,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraShake
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
