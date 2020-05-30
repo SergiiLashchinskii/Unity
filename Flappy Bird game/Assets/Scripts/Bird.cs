@@ -37,6 +37,7 @@ public class Bird : MonoBehaviour
 
 		GameControl.instance.BirdDied();
 
+
 		if(col.collider.tag == "Ground")
 		{
 			AudioManager.instance.Play("hitGround");

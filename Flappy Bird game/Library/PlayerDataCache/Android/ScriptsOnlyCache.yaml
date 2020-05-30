@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - ColumnPool
     - GameControl
     - RepeatingBackground
+    - SawR
     - ScrollingObject
     - loadMain
     UnityEditor.Graphs.dll:
@@ -15,6 +16,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -36,6 +39,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
       Script: {instanceID: 0}
     - Class: 60
       Script: {instanceID: 0}
@@ -79,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9634}
     - Class: 114
       Script: {instanceID: 10156}
+    - Class: 114
+      Script: {instanceID: 10600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -597,8 +604,20 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Column
+  - hash:
+      serializedVersion: 2
+      Hash: f5d114c23b24c6d4342154a25a582c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovingPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawR
   platform: 13
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: D:/GameFlappyBird.apk
+  playerPath: D:/1/FlappyBirdGame1.apk

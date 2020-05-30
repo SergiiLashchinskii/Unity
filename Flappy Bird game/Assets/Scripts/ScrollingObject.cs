@@ -15,7 +15,7 @@ public class ScrollingObject : MonoBehaviour
 	{
 		if(GameControl.instance.gameOver == true)
 		{
-			_rb2d.velocity = Vector2.zero; //Прекратить листать после конца игры
+			_rb2d.velocity = Vector2.zero; //stopping the scrolling once the game is over
 		}
 	}
 }
