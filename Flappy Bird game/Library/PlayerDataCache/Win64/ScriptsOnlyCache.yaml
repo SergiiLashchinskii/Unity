@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Column
     - ColumnPool
     - GameControl
+    - PauseMenu
     - RepeatingBackground
     - SawR
     - ScrollingObject
@@ -20,6 +21,9 @@ ScriptsOnlyBuild:
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -64,31 +68,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9196}
     - Class: 114
+      Script: {instanceID: 9220}
+    - Class: 114
       Script: {instanceID: 9222}
+    - Class: 114
+      Script: {instanceID: 9228}
     - Class: 114
       Script: {instanceID: 9234}
     - Class: 114
+      Script: {instanceID: 9242}
+    - Class: 114
       Script: {instanceID: 9274}
+    - Class: 114
+      Script: {instanceID: 9278}
     - Class: 114
       Script: {instanceID: 9280}
     - Class: 114
       Script: {instanceID: 9296}
     - Class: 114
-      Script: {instanceID: 9422}
+      Script: {instanceID: 9404}
     - Class: 114
-      Script: {instanceID: 9426}
+      Script: {instanceID: 9424}
     - Class: 114
-      Script: {instanceID: 9430}
+      Script: {instanceID: 9428}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 9432}
     - Class: 114
-      Script: {instanceID: 9626}
+      Script: {instanceID: 9584}
     - Class: 114
-      Script: {instanceID: 9638}
+      Script: {instanceID: 9628}
     - Class: 114
       Script: {instanceID: 9640}
     - Class: 114
-      Script: {instanceID: 10196}
+      Script: {instanceID: 9642}
+    - Class: 114
+      Script: {instanceID: 10282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -123,7 +137,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9242}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -535,6 +549,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 205f8fd60b4ccf7eb44273517909f859
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: afc5b93a7b192de2dcb3832fe35a5c7e

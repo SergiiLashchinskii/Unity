@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\GameControl.cs" />
      <Compile Include="Assets\Scripts\loadMain.cs" />
      <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Platfotmmove.cs" />
      <Compile Include="Assets\Scripts\RepeatingBackground.cs" />
      <Compile Include="Assets\Scripts\SawR.cs" />

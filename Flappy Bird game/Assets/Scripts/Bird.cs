@@ -18,16 +18,21 @@ public class Bird : MonoBehaviour
 	
 	void Update () 
 	{
-		if(_isDead == false)
-		{
-			if(Input.GetMouseButtonDown(0))
-			{
-				_rb2d.velocity = Vector2.zero; 
-				_rb2d.AddForce(new Vector2(0, upForce));
-				_anim.SetTrigger("Flap");
-			}
-		}
-	}
+        if (GameObject.FindWithTag("PauseMenu")) { _rb2d.velocity = Vector2.zero; }
+        else
+        {
+            if (_isDead == false)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    _rb2d.velocity = Vector2.zero;
+                    _rb2d.AddForce(new Vector2(0, upForce));
+                    _anim.SetTrigger("Flap");
+                }
+            }
+        }
+        }
+
 
 	void OnCollisionEnter2D(Collision2D col) 
 	{
