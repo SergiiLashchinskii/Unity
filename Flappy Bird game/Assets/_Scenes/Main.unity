@@ -1573,6 +1573,8 @@ GameObject:
   - component: {fileID: 2012584516}
   - component: {fileID: 2012584517}
   - component: {fileID: 2012584518}
+  - component: {fileID: 2012584520}
+  - component: {fileID: 2012584519}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1665,3 +1667,39 @@ MonoBehaviour:
   spawnRate: 7.4
   columnMin: -1
   columnMax: 3
+--- !u!114 &2012584519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012584513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17865f51f8799b14f8d393394d5a2e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnPoolSize: 5
+  columnPrefab: {fileID: 6968711198504191002, guid: 116ad90edf62b124bb05a424e9fb8e12,
+    type: 3}
+  spawnRate: 5.4
+  columnMin: 5
+  columnMax: 5
+--- !u!114 &2012584520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012584513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17865f51f8799b14f8d393394d5a2e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnPoolSize: 5
+  columnPrefab: {fileID: 1930111754864412618, guid: 234eb7c3ed09c094392b229326eac6a0,
+    type: 3}
+  spawnRate: 7.3
+  columnMin: -2.3
+  columnMax: -2.3
