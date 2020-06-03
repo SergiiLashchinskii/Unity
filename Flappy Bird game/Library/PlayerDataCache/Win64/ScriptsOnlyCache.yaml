@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - Bird
+    - Coin
     - Column
     - ColumnPool
     - GameControl
@@ -85,7 +86,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9638}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 9640}
+    - Class: 114
+      Script: {instanceID: 10196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -616,8 +619,20 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Column
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Coin
+  - hash:
+      serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Platfotmmove
   platform: 19
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: C:/Users/Y700/Documents/GitHub/Unity/Flappy Bird game/game_PD31.exe
+  playerPath: C:/Users/Y700/Desktop/Flappy Bird game/WindowsGame/game_PD31.exe

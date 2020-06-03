@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - Bird
+    - Coin
     - Column
     - ColumnPool
     - GameControl
@@ -16,8 +17,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -73,19 +72,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9296}
     - Class: 114
-      Script: {instanceID: 9424}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9428}
+      Script: {instanceID: 9426}
     - Class: 114
-      Script: {instanceID: 9578}
+      Script: {instanceID: 9430}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9582}
     - Class: 114
-      Script: {instanceID: 9634}
+      Script: {instanceID: 9626}
     - Class: 114
-      Script: {instanceID: 10156}
+      Script: {instanceID: 9638}
     - Class: 114
-      Script: {instanceID: 10600}
+      Script: {instanceID: 9640}
+    - Class: 114
+      Script: {instanceID: 10196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,7 +121,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9242}
     - Class: 114
-      Script: {instanceID: 9620}
+      Script: {instanceID: 9624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -534,6 +535,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SawR
+  - hash:
+      serializedVersion: 2
       Hash: 2029d0eb18e84b4e4402c99215507549
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -544,6 +551,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl
+  - hash:
+      serializedVersion: 2
+      Hash: f5d114c23b24c6d4342154a25a582c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovingPlatform
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -606,18 +619,18 @@ ScriptsOnlyBuild:
     className: Column
   - hash:
       serializedVersion: 2
-      Hash: f5d114c23b24c6d4342154a25a582c7e
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MovingPlatform
+    className: Coin
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: 002020d0363e1d2fc6726436c90292ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SawR
+    className: Platfotmmove
   platform: 13
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: D:/1/FlappyBirdGame1.apk
+  playerPath: D:/1/FlappyBirdGame6.apk
