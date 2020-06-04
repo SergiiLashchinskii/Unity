@@ -8,6 +8,7 @@ TagManager:
   - Columns
   - Coin
   - PauseMenu
+  - Button
   layers:
   - Default
   - TransparentFX

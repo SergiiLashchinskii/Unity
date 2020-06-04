@@ -15,9 +15,9 @@ public class Bird : MonoBehaviour
 		_rb2d = GetComponent<Rigidbody2D>();
 		_anim = GetComponent<Animator>();
 	}
-	
-	void Update () 
-	{
+
+    void Update()
+    {
         if (GameObject.FindWithTag("PauseMenu")) { _rb2d.velocity = Vector2.zero; }
         else
         {
@@ -25,13 +25,16 @@ public class Bird : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    _rb2d.velocity = Vector2.zero;
-                    _rb2d.AddForce(new Vector2(0, upForce));
-                    _anim.SetTrigger("Flap");
+                        {
+                            _rb2d.velocity = Vector2.zero;
+                            _rb2d.AddForce(new Vector2(0, upForce));
+                            _anim.SetTrigger("Flap");
+                        }
+                    }
                 }
             }
         }
-        }
+    
 
 
 	void OnCollisionEnter2D(Collision2D col) 

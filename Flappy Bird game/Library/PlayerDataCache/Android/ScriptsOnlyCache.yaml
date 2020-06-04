@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - RepeatingBackground
     - SawR
     - ScrollingObject
+    - SoundButton
     - loadMain
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -18,6 +19,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -100,7 +103,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9642}
     - Class: 114
-      Script: {instanceID: 10282}
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 19298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -649,8 +654,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Platfotmmove
+  - hash:
+      serializedVersion: 2
+      Hash: dfbd90d81950082c8a565e73e487e06d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundButton
   platform: 13
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: D:/1/FlappyBirdGame13.apk
+  playerPath: D:/1/FlappyBirdGame16.apk

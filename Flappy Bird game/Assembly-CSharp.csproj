@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\SawR.cs" />
      <Compile Include="Assets\Scripts\ScrollingObject.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
+     <Compile Include="Assets\Scripts\SoundButton.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>C:/Users/Y700/Desktop/Flappy Bird game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
