@@ -519,6 +519,85 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 115.47211, y: 103.06171}
   m_EdgeRadius: 0
+--- !u!1 &201254591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201254592}
+  - component: {fileID: 201254594}
+  - component: {fileID: 201254593}
+  m_Layer: 5
+  m_Name: CoinCongrats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &201254592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201254591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 751250609}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 217, y: 19}
+  m_SizeDelta: {x: 384.5, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &201254593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201254591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 10455be21b140b344be4ae7ede099085, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: All coins are gathered
+--- !u!222 &201254594
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201254591}
+  m_CullTransparentMesh: 0
 --- !u!1 &389059787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1311,7 @@ GameObject:
   - component: {fileID: 751250607}
   - component: {fileID: 751250606}
   - component: {fileID: 751250610}
+  - component: {fileID: 751250611}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1316,6 +1396,7 @@ RectTransform:
   - {fileID: 1626549979}
   - {fileID: 162172292}
   - {fileID: 463278141}
+  - {fileID: 201254592}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1338,6 +1419,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pausemenu: {fileID: 788261438}
   PauseButton: {fileID: 1626549978}
+--- !u!114 &751250611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751250605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0572bcba530d3f498dff360e787bb05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinCongrats: {fileID: 201254591}
 --- !u!1 &788261438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,9 +2745,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2847c49a0e555a4b9509cee1c31d75c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  columnPoolSize: 100
+  columnPoolSize: 30
   columnPrefab: {fileID: 915734545079146095, guid: 1588e5347b69c8a468a766e1d8f85b91,
     type: 3}
-  spawnRate: 3.3
+  spawnRate: 9.9
   columnMin: -1.9
   columnMax: 4
