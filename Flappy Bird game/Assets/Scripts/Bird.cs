@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Bird : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class Bird : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
+                    if (EventSystem.current.IsPointerOverGameObject() || EventSystem.current.currentSelectedGameObject != null) 
+                        return;
                         {
                             _rb2d.velocity = Vector2.zero;
                             _rb2d.AddForce(new Vector2(0, upForce));
