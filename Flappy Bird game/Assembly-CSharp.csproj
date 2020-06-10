@@ -57,7 +57,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Bird.cs" />
+     <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\CoinSpawn.cs" />
      <Compile Include="Assets\Scripts\Column.cs" />
      <Compile Include="Assets\Scripts\ColumnPool.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
@@ -65,7 +67,9 @@
      <Compile Include="Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Platfotmmove.cs" />
+     <Compile Include="Assets\Scripts\QuitButton.cs" />
      <Compile Include="Assets\Scripts\RepeatingBackground.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\SawR.cs" />
      <Compile Include="Assets\Scripts\SawSpawn.cs" />
      <Compile Include="Assets\Scripts\ScrollingObject.cs" />

@@ -9,8 +9,9 @@ public class Bird : MonoBehaviour
 	private Animator _anim;
 	
 	public float upForce = 200f;
-	
-	void Start ()
+    public CameraShake cameraShake;
+
+    void Start ()
 	{
 		_rb2d = GetComponent<Rigidbody2D>();
 		_anim = GetComponent<Animator>();
@@ -45,8 +46,10 @@ public class Bird : MonoBehaviour
 
 		GameControl.instance.BirdDied();
 
+        StartCoroutine(cameraShake.Shake(.15f, .14f));
 
-		if(col.collider.tag == "Ground")
+
+        if (col.collider.tag == "Ground")
 		{
 			AudioManager.instance.Play("hitGround");
 		}
