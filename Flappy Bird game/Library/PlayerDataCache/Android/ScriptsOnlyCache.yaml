@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - PauseMenu
     - RepeatingBackground
     - SawR
+    - SawSpawn
     - ScrollingObject
     - SoundButton
     - loadMain
@@ -95,17 +96,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9432}
     - Class: 114
-      Script: {instanceID: 9584}
+      Script: {instanceID: 9444}
     - Class: 114
-      Script: {instanceID: 9628}
+      Script: {instanceID: 9586}
     - Class: 114
-      Script: {instanceID: 9640}
+      Script: {instanceID: 9630}
     - Class: 114
       Script: {instanceID: 9642}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 9644}
     - Class: 114
-      Script: {instanceID: 19298}
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 13148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,7 +143,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9242}
     - Class: 114
-      Script: {instanceID: 9626}
+      Script: {instanceID: 9628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -578,6 +581,12 @@ ScriptsOnlyBuild:
     className: GameControl
   - hash:
       serializedVersion: 2
+      Hash: dfbd90d81950082c8a565e73e487e06d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundButton
+  - hash:
+      serializedVersion: 2
       Hash: f5d114c23b24c6d4342154a25a582c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -656,12 +665,12 @@ ScriptsOnlyBuild:
     className: Platfotmmove
   - hash:
       serializedVersion: 2
-      Hash: dfbd90d81950082c8a565e73e487e06d
+      Hash: b0d51ebbb3f041c7839c03e146729938
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SoundButton
+    className: SawSpawn
   platform: 13
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: D:/1/FlappyBirdGame16.apk
+  playerPath: D:/1/FlappyBirdGame17.apk
