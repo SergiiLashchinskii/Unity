@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class GameControl : MonoBehaviour
 {
@@ -36,7 +37,11 @@ public class GameControl : MonoBehaviour
 	{
 		if(gameOver == true && Input.GetMouseButtonDown(0))
 		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //reloading the scene
+            if (EventSystem.current.IsPointerOverGameObject() || EventSystem.current.currentSelectedGameObject != null)
+                return;
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //reloading the scene
+            }
 		}
 	}
 
