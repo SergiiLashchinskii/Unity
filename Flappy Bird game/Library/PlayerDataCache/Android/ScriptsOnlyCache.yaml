@@ -21,8 +21,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -713,4 +715,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/_Scenes/Start.unity
   - Assets/_Scenes/Main.unity
-  playerPath: D:/1/FlappyBirdGame29.apk
+  playerPath: D:/1/FlappyBirdGame30.apk
