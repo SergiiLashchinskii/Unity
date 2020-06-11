@@ -2713,7 +2713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   columnPoolSize: 5
-  columnPrefab: {fileID: 1247633365914858, guid: f30e27259e365cb4baec1200ece91e51,
+  columnPrefab: {fileID: 6020739039560492979, guid: 4f513ed7bd389e445a4cd7556817851c,
     type: 3}
   spawnRate: 3.3
   columnMin: -2.5
