@@ -10,6 +10,7 @@ public class loadMain : MonoBehaviour
 		if(Input.GetMouseButtonDown(0))
 		{
 			SceneManager.LoadScene(1);
+            //PlayerPrefs.SetInt("Skin", 1);
 		}
 	}
 }

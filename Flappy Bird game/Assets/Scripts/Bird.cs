@@ -8,14 +8,28 @@ public class Bird : MonoBehaviour
 	private bool _isDead = false;
 	private Rigidbody2D _rb2d;
 	private Animator _anim;
-	
-	public float upForce = 200f;
+    int Skinnumber;
+
+    public float upForce = 200f;
     public CameraShake cameraShake;
+    public AnimatorOverrideController yellow;
+    public AnimatorOverrideController black;
 
     void Start ()
 	{
+        Skinnumber = PlayerPrefs.GetInt("Skin");
 		_rb2d = GetComponent<Rigidbody2D>();
 		_anim = GetComponent<Animator>();
+        if (Skinnumber == 1)
+        {
+            GetComponent<Animator>().runtimeAnimatorController = yellow as RuntimeAnimatorController;
+        }
+        else
+        {
+            GetComponent<Animator>().runtimeAnimatorController = black as RuntimeAnimatorController;
+        }
+
+
 	}
 
     void Update()
