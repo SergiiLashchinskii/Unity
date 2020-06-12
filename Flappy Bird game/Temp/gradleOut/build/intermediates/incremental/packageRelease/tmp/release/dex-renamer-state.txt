@@ -1,0 +1,4 @@
+#Fri Jun 12 18:38:02 AST 2020
+base.0=C\:\\Users\\Y700\\Desktop\\Flappy Bird game\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
